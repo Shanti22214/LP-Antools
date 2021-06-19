@@ -1,0 +1,76 @@
+.hello {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+.hello .hello-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 600px;
+  margin-top: 80px;
+}
+.hello .hello-left .title {
+  max-width: 600px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.9);
+}
+.hello .hello-left .title b {
+  color: #FF6E30;
+}
+.hello .hello-left .subtitle {
+  max-width: 487px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.hello .hello-left .hello-search {
+  width: 497px;
+}
+.hello .hello-left .hello-search .search-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  border-radius: 15px;
+  background-color: #283036;
+  border: 2px solid #2f3941;
+}
+.hello .hello-left .hello-search .search-bar .search-bar-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 48px;
+  background-color: #FF6E30;
+  border-radius: 8px;
+  margin-right: 11px;
+}
+.hello .hello-left .hello-search .search-bar .search-bar-btn span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.hello .hello-left .hello-search .search-bar textarea {
+  color: #837A93;
+  background: #283036;
+  resize: none;
+}
+.hello .hello-left .hello-search .search-bar .search-bar-scope {
+  margin-left: 21px;
+}
+.hello .hello-left .hello-social-links {
+  margin-top: 90px;
+}
+.hello .hello-right {
+  margin-top: 80px;
+}
+
+/*# sourceMappingURL=hello.css.map */

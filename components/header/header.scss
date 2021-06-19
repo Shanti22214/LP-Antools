@@ -1,0 +1,81 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 31px;
+
+    .logotype {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .logotype-ico {
+            flex: 0 0 38px;
+            margin-right: 12px;
+
+        }
+
+        .logotype-name {
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 33px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+    }
+
+    .nav {
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+
+        
+        .table {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 431px;
+            height: 24px;
+
+            li {
+                color: rgba(255, 255, 255, 0.55);
+            }
+        }
+    }
+
+    .btn-reg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 200px;
+
+        .btn-log {
+            a {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: rgba(255, 255, 255, 0.78);
+            }
+        }
+
+        .btn-sign-up {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 118px;
+            height: 48px;
+            background-color: #FF6E30;
+            border-radius: 8px;
+
+            span {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FDF5FF;
+            }
+        }
+    }
+}

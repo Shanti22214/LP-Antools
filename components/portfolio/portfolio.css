@@ -1,0 +1,89 @@
+.portfolio .portfolio-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.portfolio .portfolio-wrapper .left-column {
+  flex: 0 0 497px;
+}
+.portfolio .portfolio-wrapper .left-column .gradient-circle-two {
+  position: relative;
+  top: -490px;
+  right: 20px;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, rgba(178, 69, 241, 0.301) 0%, rgba(40, 48, 54, 0) 57%);
+  z-index: -12;
+}
+.portfolio .portfolio-wrapper .left-column .portfolio-img {
+  padding-left: 100px;
+}
+.portfolio .portfolio-wrapper .left-column .portfolio-img .z-index {
+  position: relative;
+  z-index: 11;
+}
+.portfolio .portfolio-wrapper .left-column .portfolio-img img {
+  max-width: 100%;
+}
+.portfolio .portfolio-wrapper .left-column .portfolio-img .box-name {
+  position: relative;
+  top: -140px;
+  right: -120px;
+  width: 265px;
+  height: 91px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(50px);
+  border-radius: 8px;
+  z-index: 13;
+}
+.portfolio .portfolio-wrapper .left-column .portfolio-img .box-name .box-name-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: radial-gradient(circle at bottom right, rgba(0, 122, 204, 0.192) 0%, rgba(40, 48, 54, 0.24) 26%);
+}
+.portfolio .portfolio-wrapper .left-column .portfolio-img .box-name .gradient-circle-one {
+  position: relative;
+  top: -150px;
+  right: -110px;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, rgba(255, 110, 48, 0.274) 0%, rgba(40, 48, 54, 0) 70%);
+  z-index: -12;
+}
+.portfolio .portfolio-wrapper .left-column .portfolio-img .box-name span:nth-child(1) {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: 0.015em;
+  color: rgba(255, 253, 253, 0.78);
+}
+.portfolio .portfolio-wrapper .left-column .portfolio-img .box-name span:nth-child(2) {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 253, 253, 0.55);
+}
+.portfolio .portfolio-wrapper .left-column .gradient-circle {
+  position: relative;
+  z-index: 11;
+}
+.portfolio .portfolio-wrapper .right-column .subtitle {
+  position: relative;
+  z-index: 999;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.78);
+  width: 580px;
+  padding-top: 100px;
+  padding-left: 70px;
+}
+.portfolio .portfolio-wrapper .right-column .subtitle .portfolio-vector {
+  position: relative;
+  top: -230px;
+  right: 50px;
+}
+
+/*# sourceMappingURL=portfolio.css.map */

@@ -1,0 +1,144 @@
+
+.footer {
+height: 270px;
+    .footer-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .copyright-block {
+            .logotype {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+        
+                .logotype-ico {
+                    flex: 0 0 38px;
+                    margin-right: 12px;
+        
+                }
+        
+                .logotype-name {
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 33px;
+                    color: rgba(255, 255, 255, 0.9);
+                }
+            }
+
+            .title {
+                margin-top: 25px;
+
+                span {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: rgba(255, 255, 255, 0.9);
+                }
+            }
+            
+            .subtitle {
+                width: 260px;
+                margin-top: 21px;
+
+                span {
+                    font-size: 14px;
+                    line-height: 25px;
+                    color: rgba(255, 255, 255, 0.55);
+                }
+            }
+
+        }
+
+        .contact-block {
+
+            .title {
+                margin-bottom: 20px;
+
+                span {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: rgba(255, 255, 255, 0.9);
+                }
+
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 92px;
+                
+
+                span {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: rgba(255, 255, 255, 0.55);
+                }
+            }
+            
+
+        }
+
+        .categories-block {
+
+            .title {
+                margin-bottom: 20px;
+
+                span {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: rgba(255, 255, 255, 0.9);
+                }
+
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 58px;
+
+                span {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: rgba(255, 255, 255, 0.55);
+                }
+            }
+
+        }
+
+        .company-info-block {
+
+            .title {
+                margin-bottom: 20px;
+
+                span {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: rgba(255, 255, 255, 0.9);
+                }
+
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 92px;
+
+                span {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: rgba(255, 255, 255, 0.55);
+                }
+            }
+
+        }
+    }
+}

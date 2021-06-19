@@ -1,0 +1,77 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 240px;
+}
+.feedback .title {
+  display: flex;
+  justify-content: center;
+}
+.feedback .title span {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+.feedback .subtitle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.feedback .subtitle span {
+  width: 427px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.feedback-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.feedback-area .hello-search {
+  width: 497px;
+  margin-top: 80px;
+}
+.feedback-area .hello-search .search-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  border-radius: 15px;
+  background-color: #283036;
+  border: 2px solid #2f3941;
+}
+.feedback-area .hello-search .search-bar .search-bar-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 48px;
+  background-color: #FF6E30;
+  border-radius: 8px;
+  margin-right: 11px;
+}
+.feedback-area .hello-search .search-bar .search-bar-btn span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.feedback-area .hello-search .search-bar textarea {
+  color: #837A93;
+  background: #283036;
+  resize: none;
+}
+.feedback-area .hello-search .search-bar .search-bar-scope {
+  margin-left: 21px;
+}
+
+/*# sourceMappingURL=feedback.css.map */

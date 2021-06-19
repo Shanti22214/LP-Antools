@@ -1,0 +1,160 @@
+.explore {
+  margin-bottom: 200px;
+}
+.explore .explore-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 638px;
+  margin-top: 200px;
+}
+.explore .explore-wrapper .__mb {
+  margin-bottom: 58px;
+}
+.explore .explore-wrapper .left-column {
+  max-width: 427px;
+}
+.explore .explore-wrapper .left-column .title span {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  /* or 62px */
+  color: rgba(255, 255, 255, 0.9);
+}
+.explore .explore-wrapper .left-column .subtitle {
+  margin-top: 27px;
+  margin-bottom: 60px;
+}
+.explore .explore-wrapper .left-column .subtitle span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  color: rgba(255, 255, 255, 0.55);
+}
+.explore .explore-wrapper .left-column .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 198px;
+  height: 58px;
+  border-radius: 8px;
+  background-color: #FF6E30;
+}
+.explore .explore-wrapper .left-column .button:hover {
+  cursor: pointer;
+  background-color: #ff6e30e7;
+}
+.explore .explore-wrapper .left-column .button span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+.explore .explore-wrapper .right-column {
+  display: flex;
+  flex-direction: column;
+}
+.explore .explore-wrapper .right-column .cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+}
+.explore .explore-wrapper .right-column .cards {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  height: 284px;
+  transition: 0.5s;
+}
+.explore .explore-wrapper .right-column .cards:hover {
+  transform: translateY(-20px);
+}
+.explore .explore-wrapper .right-column .cards:hover .cards-name span {
+  color: white;
+}
+.explore .explore-wrapper .right-column .cards:hover .cards-subtitle {
+  color: rgba(255, 255, 255, 0.78);
+}
+.explore .explore-wrapper .right-column .cards .cards-header {
+  display: flex;
+  width: 170px;
+  height: 66px;
+  margin: 33px 0px 0px 33px;
+  width: 100%;
+}
+.explore .explore-wrapper .right-column .cards .cards-body {
+  margin: 30px 33px 30px 33px;
+}
+.explore .explore-wrapper .right-column .cards .cards-body .cards-subtitle {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.explore .explore-wrapper .right-column .cards .cards-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.explore .explore-wrapper .right-column .cards .cards-name span:nth-child(1) {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.78);
+}
+.explore .explore-wrapper .right-column .cards .cards-name span:nth-child(2) {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(255, 165, 55, 0.55);
+}
+.explore .explore-wrapper .right-column .cards .cards-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.explore .explore-wrapper .right-column .cards .cards-footer .cards-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 96px;
+  height: 42px;
+  margin-left: 33px;
+}
+.explore .explore-wrapper .right-column .cards .cards-footer span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.explore .explore-wrapper .right-column .cards .cards-footer .footer-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 106px;
+  height: 42px;
+  margin-right: 33px;
+}
+.explore .explore-wrapper .right-column .cards:hover {
+  background: rgba(40, 48, 54, 0.6);
+  border-radius: 15px;
+  background: radial-gradient(circle at top right, rgba(255, 168, 131, 0.2) 0%, #283036 20%);
+}
+.explore .explore-wrapper .right-column .cards:hover #hover {
+  color: #FFA537;
+}
+.explore .explore-wrapper .right-column .cards:hover .footer-text {
+  background: #FF6E30;
+  border-radius: 8px;
+}
+.explore .explore-wrapper .right-column .cards:hover .footer-text span {
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=explore.css.map */

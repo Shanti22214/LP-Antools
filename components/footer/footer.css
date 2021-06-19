@@ -1,0 +1,106 @@
+.footer {
+  height: 270px;
+}
+.footer .footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer .footer-wrapper .copyright-block .logotype {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer .footer-wrapper .copyright-block .logotype .logotype-ico {
+  flex: 0 0 38px;
+  margin-right: 12px;
+}
+.footer .footer-wrapper .copyright-block .logotype .logotype-name {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer .footer-wrapper .copyright-block .title {
+  margin-top: 25px;
+}
+.footer .footer-wrapper .copyright-block .title span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer .footer-wrapper .copyright-block .subtitle {
+  width: 260px;
+  margin-top: 21px;
+}
+.footer .footer-wrapper .copyright-block .subtitle span {
+  font-size: 14px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.footer .footer-wrapper .contact-block .title {
+  margin-bottom: 20px;
+}
+.footer .footer-wrapper .contact-block .title span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer .footer-wrapper .contact-block .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 92px;
+}
+.footer .footer-wrapper .contact-block .info span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.footer .footer-wrapper .categories-block .title {
+  margin-bottom: 20px;
+}
+.footer .footer-wrapper .categories-block .title span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer .footer-wrapper .categories-block .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 58px;
+}
+.footer .footer-wrapper .categories-block .info span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.footer .footer-wrapper .company-info-block .title {
+  margin-bottom: 20px;
+}
+.footer .footer-wrapper .company-info-block .title span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer .footer-wrapper .company-info-block .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 92px;
+}
+.footer .footer-wrapper .company-info-block .info span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+/*# sourceMappingURL=footer.css.map */
